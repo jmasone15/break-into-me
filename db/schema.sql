@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS break_me_db;
+
+CREATE DATABASE break_me_db;
