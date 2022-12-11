@@ -21,7 +21,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url("../background.jpeg");
+    background-image: url("../assets/background.jpeg");
     background-position: 8% 50%;
   }
   

@@ -14,7 +14,7 @@ async function populatePage() {
         if (i % 2 !== 0) {
             htmlArray.push(
                 `
-            <div class="col-5 video-box">
+            <div class="col-md-5 video-box">
                 <div class="d-flex justify-content-between mt-2">
                     <h3>${data[i].title}</h3>
                     <i class="bi ${data[i].multiplayer_ind === 0 ? `bi-person-fill` : `bi-people-fill`} logo-img" style="font-size: 25px;" title=${data[i].multiplayer_ind === 0 ? "Single-Player" : "Multi-Player"}></i>
@@ -28,7 +28,7 @@ async function populatePage() {
             htmlArray.push(
                 `
                 <div class="row mb-5">
-                <div class="col-5 video-box">
+                <div class="col-md-5 video-box">
                     <div class="d-flex justify-content-between mt-2">
                         <h3>${data[i].title}</h3>
                         <i class="bi ${data[i].multiplayer_ind === 0 ? `bi-person-fill` : `bi-people-fill`} logo-img" style="font-size: 25px;" title=${data[i].multiplayer_ind === 0 ? "Single-Player" : "Multi-Player"}></i>
@@ -36,7 +36,7 @@ async function populatePage() {
                     <h6>${data[i].genre}</h6>
                     <p>${data[i].description}</p>
                 </div>
-                <div class="col-2"></div>`
+                <div class="col-md-2"></div>`
             )
         }
     }
