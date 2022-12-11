@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 .logo-img {
     height: 30px;
     width: 30px;
@@ -6,4 +8,74 @@
 
 .video-box {
     border-radius: 3px;
+    border: 3px solid #7430f9;
+    background-color: rgb(203, 200, 200);
+    opacity: 0.9;
+    color: rgb(31, 31, 31);
 }
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url("../background.jpeg");
+    background-position: 8% 50%;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  
+  .navbar-brand {
+    color: #df3ca6;
+  }
+  
+  .navbar-brand img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    font-size: 15px;
+    color: white;
+  }
+  
+  .btn:hover {
+    color: black;
+  }
+  
+  .btn-primary,
+  .bg-primary {
+    background-color: #df3ca6 !important;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #df3ca6;
+    opacity: 0.9;
+  }
+  
+  .btn-secondary {
+    background-color: #7430f9;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #7430f9;
+    opacity: 0.9;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .bg-highlight {
+    background-color: rgb(228, 187, 236);
+  }
