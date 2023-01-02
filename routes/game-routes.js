@@ -9,8 +9,19 @@ router.get("/", (req, res) => {
         });
     } catch (err) {
         console.error(err);
-        res.status(500).send("Oops!")
+        res.status(500).send("Oops!");
     }
-})
+});
+
+router.get("/:id", (req, res) => {
+    try {
+        db.oneById("games", req.params.id, data => {
+            res.json(data).status(200);
+        });
+    } catch (err) {
+        console.error(err);
+        res.status(500).send("Oops!");
+    }
+});
 
 module.exports = router;
